@@ -1,7 +1,7 @@
-import ExampleComponent from './'
+import SocialPosts from './'
 
-describe('ExampleComponent', () => {
+describe('SocialPosts', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(SocialPosts).toBeTruthy()
   })
 })

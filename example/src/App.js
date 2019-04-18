@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import ExampleComponent from 'social-feed'
+import SocialPosts from 'social-feed';
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <SocialPosts limit={2} network="twitter" interval={1000} />
       </div>
     )
   }
